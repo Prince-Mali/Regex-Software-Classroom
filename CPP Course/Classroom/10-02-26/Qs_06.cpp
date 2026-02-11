@@ -4,7 +4,7 @@ using namespace std;
 int countVal(vector<int> v, int idx) {
     if(v.size() == idx) return 0;
     
-    
+    return 1 + countVal(v, idx + 1);
 }
 
 int main() {
