@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Questions</title>
+</head>
+<body>
+    <button id="clearBtn" onclick="clearPage()">Clear All</button>
+
+    <!-- Qs. 1 -->
+    <h3>Qs.1 : Get all user's name -</h3>
+    <button id="getUserName">Get All user Name</button>
+    <div id="qs-1"></div>
+    <hr>
+
+    <!-- Qs. 2 -->
+    <h3>Qs.2 : Find user with userId = 1</h3>
+    <button id="findUser">Find User</button>
+    <div id="qs-2"></div>
+    <hr>
+
+    <!-- Qs. 3 -->
+    <h3>Qs.3 : Get all products with price greater than 10,000</h3>
+    <button id="getProduct">Get Products</button>
+    <div id="qs-3"></div>
+    <hr>
+
+    <!-- Qs. 4 -->
+    <h3>Qs.4 : List all categories names.</h3>
+    <button id="getAllCategories">List All Categories</button>
+    <div id="qs-4"></div>
+    <hr>
+
+    <!-- Qs. 5 -->
+    <h3>Qs.5 : Find all vendors with rating above 4.3</h3>
+    <button id="findVendor">Find Vendor</button>
+    <div id="qs-5"></div>
+    <hr>
+
+    <!-- Qs. 6 -->
+    <h3>Qs.6 : Get all products with stock less than 10.</h3>
+    <button id="getProd_stk">Get Product(stock < 10)</button>
+    <div id="qs-6"></div>
+    <hr>
+    
+
+    <!-- Qs. 7 -->
+    <h3>Qs.7 : Find all users from "Delhi".</h3>
+    <button id="findUser-delhi">Find User(delhi)</button>
+    <div id="qs-7"></div>
+    <hr>
+
+    <!-- Qs. 8 -->
+    <h3>Qs.8 : Get all orders with status "Delivered".</h3>
+    <button id="getOrders">Get Orders List(deliverd)</button>
+    <div id="qs-8"></div>
+    <hr>
+
+    <!-- Qs. 9 -->
+    <h3>Qs.9 : Count total number of products.</h3>
+    <button id="countProduct">Count Products</button>
+    <div id="qs-9"></div>
+    <hr>
+
+
+    <!-- Qs. 10 -->
+    <h3>Qs.10 : Get all wishlist products of user 1.</h3>
+    <button id="getWishlist">Get WishList</button>
+    <div id="qs-10"></div>
+    <hr>
+
+
+    <script type="module" src="app.js"></script>
+    <script>
+        function clearPage() {
+            let containers = document.querySelectorAll('div');
+            
+            containers.forEach(div => {
+                div.innerHTML = '';
+            });
+        }
+    </script>
+</body>
+</html>

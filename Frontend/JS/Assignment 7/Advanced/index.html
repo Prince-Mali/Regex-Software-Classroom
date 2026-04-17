@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Questions</title>
+</head>
+<body>
+
+    <button onclick="clearAll()">Clear All</button>
+
+    <!-- Qs.1 : Calculate total revenue generated from all orders. -->
+    <h3>Qs.1 Calculate total revenue generated from all orders.</h3>
+    <button id="qs-1-btn">Get Total Revanue</button>
+    <div id="qs-1"></div>
+    <hr>
+
+
+    <!-- Qs.2 : Get most expensive product. -->
+    <h3>Qs.2 Get most expensive product.</h3>
+    <button id="qs-2-btn">Get Expensive Product</button>
+    <div id="qs-2"></div>
+    <hr>
+
+    
+    <!-- Qs.3 : Find most sold product (based on order quantity). -->
+    <h3>Qs.3 Find most sold product (based on order quantity).</h3>
+    <button id="qs-3-btn">Most Sold Product</button>
+    <div id="qs-3"></div>
+    <hr>
+
+    
+    <!-- Qs.4 : Get user who placed the highest number of orders. -->
+    <h3>Qs.4 Get user who placed the highest number of orders.</h3>
+    <button id="qs-4-btn">Get User (max order)</button>
+    <div id="qs-4"></div>
+    <hr>
+
+    
+    <!-- Qs.5 : Find total quantity sold per product. -->
+    <h3>Qs.5 Find total quantity sold per product.</h3>
+    <button id="qs-5-btn">Get order/product</button>
+    <div id="qs-5"></div>
+    <hr>
+
+    
+    <!-- Qs.6 : Get top-rated product. -->
+    <h3>Qs.6 Get top-rated product.</h3>
+    <button id="qs-6-btn">Get Product</button>
+    <div id="qs-6"></div>
+    <hr>
+
+
+    
+    <!-- Qs.7 : Find all products with no reviews. -->
+    <h3>Qs.7 Find all products with no reviews.</h3>
+    <button id="qs-7-btn">Get Products (0 review)</button>
+    <div id="qs-7"></div>
+    <hr>
+
+    
+    <!-- Qs.8 : Get all users who used a coupon. -->
+    <h3>Qs.8 Get all users who used a coupon.</h3>
+    <button id="qs-8-btn">Get Users</button>
+    <div id="qs-8"></div>
+    <hr>
+
+    
+    <!-- Qs.9 : Find total discount applied using coupons. -->
+    <h3>Qs.9 Find total discount applied using coupons.</h3>
+    <button id="qs-9-btn">Get Total Discount</button>
+    <div id="qs-9"></div>
+    <hr>
+
+    
+    <!-- Qs.10 : Get orders that are still pending delivery. -->
+    <h3>Qs.10 Get orders that are still pending delivery.</h3>
+    <button id="qs-10-btn">Get Orders (pending)</button>
+    <div id="qs-10"></div>
+    <hr>
+
+
+    
+    <script type="module" src="app.js"></script>
+    <script>
+        function clearAll() {
+            document.querySelectorAll('div').forEach((div) => div.innerHTML = '');
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Questions</title>
+</head>
+<body>
+    <button onclick="clearAll()">Clear All</button>
+
+    <!-- Qs. 1: Get total cart value of user 1 -->
+    <h3>Qs.1 : Get total cart value of user 1.</h3>
+    <button id="qs-1-btn">Get Total Cart Value</button>
+    <div id="qs-1"></div>
+    <hr>
+
+    <!-- Qs. 2: Find all products in "Electronics" category. -->
+    <h3>Qs.2 : Find all products in "Electronics" category.</h3>
+    <button id="qs-2-btn">Find Products (electronics)</button>
+    <div id="qs-2"></div>
+    <hr>
+
+    <!-- Qs. 3: Get vendor name for each product. -->
+    <h3>Qs.3 : Get vendor name for each product.</h3>
+    <button id="qs-3-btn">Get Vendor Name</button>
+    <div id="qs-3"></div>
+    <hr>
+
+    <!-- Qs. 4: Find total number of orders per user. -->
+    <h3>Qs.4 : Find total number of orders per user.</h3>
+    <button id="qs-4-btn">Find Total Order/User</button>
+    <div id="qs-4"></div>
+    <hr>
+
+    <!-- Qs. 5: Get all products with rating above 4.5. -->
+    <h3>Qs.5 : Get all products with rating above 4.5</h3>
+    <button id="qs-5-btn">Get Product (4.5+)</button>
+    <div id="qs-5"></div>
+    <hr>
+
+
+    <!-- Qs. 6: Find all orders where payment method is "UPI". -->
+    <h3>Qs.6 : Find all orders where payment method is "UPI".</h3>
+    <button id="qs-6-btn">Get Orders (UPI)</button>
+    <div id="qs-6"></div>
+    <hr>
+    
+
+    <!-- Qs. 7: Get all items from order "ORD1001". -->
+    <h3>Qs.7 : Get all items from order "ORD1001".</h3>
+    <button id="qs-7-btn">Get Items (ORD1001)</button>
+    <div id="qs-7"></div>
+    <hr>
+
+
+    <!-- Qs. 8: Find products that are out of stock. -->
+    <h3>Qs.8 : Find products that are out of stock.</h3>
+    <button id="qs-8-btn">Get Products</button>
+    <div id="qs-8"></div>
+    <hr>
+
+    
+    <!-- Qs. 9: Get all reviews for productId = 1. -->
+    <h3>Qs.9 : Get all reviews for productId = 1.</h3>
+    <button id="qs-9-btn">Get Reviews (product-1)</button>
+    <div id="qs-9"></div>
+    <hr>
+
+    
+    <!-- Qs. 10: Find average rating of all products. -->
+    <h3>Qs.10 : Find average rating of all products.</h3>
+    <button id="qs-10-btn">Average Rating</button>
+    <div id="qs-10"></div>
+    <hr>
+
+
+    
+    <script type="module" src="app.js"></script>
+    <script>
+        function clearAll() {
+            document.querySelectorAll('div').forEach((div) => {
+                div.innerHTML = '';
+            });
+        }
+    </script>
+</body>
+</html>
